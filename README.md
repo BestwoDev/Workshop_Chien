@@ -1,7 +1,9 @@
 # Workshop Chien 🐾
 
 ## Description
-**Workshop Chien** est un site web e-commerce dédié aux produits pour chiens. Le site permet aux utilisateurs de découvrir et d'acheter des produits variés pour leurs compagnons à quatre pattes, incluant de la nourriture, des jouets, et des accessoires. Le projet est développé en PHP avec une intégration front-end en HTML, CSS et Bootstrap.
+**Workshop Chien** est un site web e-commerce dédié aux produits pour chiens. 
+Le site permet aux utilisateurs de découvrir et d'acheter des produits variés pour leurs compagnons à quatre pattes, incluant de la nourriture, des jouets, et des accessoires. 
+Le projet est développé en PHP avec une intégration front-end en HTML, CSS et Bootstrap.
 
 ## Fonctionnalités
 - **Page d'accueil** : Affiche les produits populaires et les promotions en cours.
@@ -11,7 +13,27 @@
 - **Responsive design** : Adapté pour les écrans mobiles.
 
 ## Structure du Projet
-workshop_chien/ ├── assets/ │ ├── css/ │ │ └── style.css # Styles personnalisés │ ├── images/ # Images du site │ └── js/ │ └── script.js # Scripts JavaScript (optionnel) ├── includes/ │ ├── header.php # En-tête commun │ ├── footer.php # Pied de page commun │ └── db_connect.php # Connexion à la base de données ├── pages/ │ ├── accueil.php # Page d'accueil │ ├── contact.php # Page de contact │ ├── nourriture.php # Page de la catégorie Nourriture │ ├── jouets.php # Page de la catégorie Jouets │ ├── accessoires.php # Page de la catégorie Accessoires │ └── qui-sommes-nous.php # Page Qui sommes-nous ├── db/ │ ├── create_database.php # Script de création de la base de données │ └── seed_data.php # Script d'ajout de données de test ├── .gitignore # Fichiers et dossiers à ignorer par Git ├── .htaccess # Configuration Apache (si nécessaire) ├── index.php # Page d'accueil principale └── README.md # Documentation du projet
+workshop_chien/ 
+├── assets/ 
+│ ├── css/ 
+│ │ └── style.css # Styles personnalisés 
+│ ├── images/ # Images du site 
+├── includes/ 
+│ ├── header.php # En-tête commun 
+│ ├── footer.php # Pied de page commun 
+│ └── db_connect.php # Connexion à la base de données 
+├── pages/ 
+│ ├── accueil.php # Page d'accueil 
+│ ├── contact.php # Page de contact 
+│ ├── nourriture.php # Page de la catégorie Nourriture 
+│ ├── jouets.php # Page de la catégorie Jouets 
+│ ├── accessoires.php # Page de la catégorie Accessoires 
+│ └── qui-sommes-nous.php # Page Qui sommes-nous 
+├── db/ 
+│ ├── create_database.php # Script de création de la base de données 
+│ └── seed_data.php # Script d'ajout de données de test  
+├── index.php # Page d'accueil principale 
+└── README.md # Documentation du projet
 
 ## Prérequis
 
