@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$dbname = 'workshop_chien';
+$dbname = 'chien';
 $username = 'root';
 $password = '';
 
