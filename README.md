@@ -54,4 +54,9 @@ workshop_chien/
 
 - **Structure claire** : Le fichier `README.md` décrit clairement la structure du projet, les fonctionnalités principales, et donne des instructions précises pour l'installation et l'utilisation.
 - **Collaboration encouragée** : Il contient des sections pour la contribution, ce qui est essentiel pour un projet collaboratif.
+<<<<<<< HEAD
 - **Documenter le Code** : En ajoutant une documentation comme celle-ci, vous assurez que n'importe quel membre de l'équipe ou un futur contributeur puisse comprendre et participer au projet facilement.
+=======
+- **Documenter le Code** : En ajoutant une documentation comme celle-ci, vous assurez que n'importe quel membre de l'équipe ou un futur contributeur puisse comprendre et participer au projet facilement.
+- **Visibilité des auteurs** : Mentionner les auteurs permet de donner crédit à chaque membre de l'équipe pour son travail.
+>>>>>>> 5ed0e117d07c106d15e3b6a420a53464ef924243
