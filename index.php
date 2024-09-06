@@ -1,33 +1,46 @@
+<?php  ?>
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil - Produits pour chiens</title>
-    <link rel="stylesheet" href="./public/assets/css/style.css">
+    <title>Document</title>
+    <link href=" https://fonts.cdnfonts.com/css/meringue " rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style_ilhem.css">
 </head>
 <body>
-    <header>
-        <h1>Bienvenue sur notre site de produits pour chiens</h1>
-        <nav>
-            <ul>
-                <li><a href="index.php">Accueil</a></li>
-                <li><a href="pages/nourriture.php">Nourriture</a></li>
-                <li><a href="pages/jouet_accessoire.php">Jouets & Accessoires</a></li>
-                <li><a href="pages/entretien.php">Entretien</a></li>
-                <li><a href="pages/contact.php">Contact</a></li>
-                <li><a href="pages/qui_sommes_nous.php">Qui sommes-nous ?</a></li>
-            </ul>
-        </nav>
+    <header class="header_index">
+        <div class="head">
+            <img src="img/1.png" alt="logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="apropos_de_nous.php"><b>Apropos de nous</b></a></li>
+                    <li><a href="nourriture.php"><b>Nourritures</b></a></li>
+                    <li><a href="jouets_accessoires.php"><b>Jouets et accessoires</b></a></li>
+                    <li><a href="entretien.php"><b>Entretien</b></a></li>
+                    <li><a href="contact.php"><b>Contact</b></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="titre">
+            <h1>DOG SHOP</h1>
+        </div>
     </header>
-    <main>
-        <section>
-            <h2>Nos produits les plus populaires</h2>
-            <!-- Afficher des produits ici -->
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Produits pour chiens - Tous droits réservés</p>
-    </footer>
+    <div class="acceuil">
+        <div class="nourriture">
+            <img src="img/image2.jpg" alt="nourriture">
+            <a href="traitement.php?category=nourritures">Nourritures</a>
+        </div>
+        <div class="jouets">
+            <img src="img/chien-collier-qui-dit-chien-tient-balle.jpg" alt="">
+            <a href="traitement.php?category=jouets_accessoires">Jouets et accessoires</a>
+        </div>
+        <div class="entretien">
+            <img src="img/image6.jpg" alt="">
+            <a href="traitement.php?category=entretien">Entretien</a>
+        </div>
+    </div>
 </body>
 </html>

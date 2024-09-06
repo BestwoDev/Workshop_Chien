@@ -1,0 +1,249 @@
+/* https://fonts.google.com/ */
+
+/* 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); */
+
+/* @font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Italic";
+  src: url("fonts/Roboto-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Black";
+  src: url("fonts/Roboto-Black.ttf");
+} */
+
+/* @font-face {
+  font-family: ;
+  src: url();
+} */
+
+/* 
+Une mise en page flexible doit avoir un élément parent avec la propriété display définie sur flex.
+Les éléments enfants directs du conteneur flexible deviennent automatiquement des éléments flexibles.
+
+.flexbox{
+display: flex;
+
+Flex Container : 
+flex-direction: column;
+flex-direction: column-reverse;
+flex-direction: row;
+flex-direction: row-reverse;
+flex-wrap: wrap;
+flex-wrap: nowrap;
+flex-wrap: wrap-reverse;
+flex-flow: row wrap;
+justify-content: center;
+justify-content: flex-start;
+justify-content: flex-end;
+justify-content: space-around;
+justify-content: space-between;
+justify-content: space-evenly;
+
+height: 200px; à définir absolument une hauteur quand on utilise "align-items"
+align-items: center;
+align-items: flex-start;
+align-items: flex-end;
+align-items: stretch;
+align-items: baseline;
+
+flex-wrap: wrap;
+align-content: space-between;
+
+flex-wrap: wrap;
+align-content: space-around;
+
+flex-wrap: wrap;
+align-content: stretch;
+
+flex-wrap: wrap;
+align-content: center;
+align-content: space-evenly;
+
+flex-wrap: wrap;
+align-content: flex-start;
+
+flex-wrap: wrap;
+align-content: flex-end;
+
+justify-content: center;
+align-items: center;
+
+Child Elements (Items) :
+display: flex;
+align-items: stretch; ->
+pour un item :
+order
+
+display: flex;
+align-items: stretch; ->
+pour un item :
+order
+
+display: flex;
+align-items: stretch;
+
+flex-grow
+
+display: flex;
+align-items: stretch;
+flex-shrink
+
+
+flex-basis
+flex : auto // On l'utilse pour les enfants
+align-self
+
+
+flex-flow
+
+}
+*/
+
+/*************** GLOBAL ***************/
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: center;
+  /*pour garder la meme taille*/
+}
+
+img{
+  /* width:100%; */
+  display: block;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+hr{
+  margin: 0px auto !important;
+  opacity: 1;
+  height: 5px;
+  width: 30px;
+  background-color: #e53f6f;
+  border: none;
+}
+
+body{
+  /* font-family:Arial;
+    background-image: url("../img/fond.png"); */
+  /* background-color: rgb(240, 240, 240); */
+}
+
+h3,
+ul,
+p{
+  font-family: "Caveat Brush", sans-serif;
+}
+
+h2{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.container{
+  width: 1440px;
+  margin: 0 auto;
+  /*pour centrer la page dans le navigateurs*/
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+  /* background-color: #686666; */
+}
+
+/*************** END GLOBAL ***************/
+
+/*************** HEADER ***************/
+
+/*************** END HEADER ***************/
+
+/*************** NAV ***************/
+
+/*************** END NAV ***************
+
+/*************** MAIN ***************/
+body{
+  background-image: url("../img/image_14.png");
+  background-size: 100% 835px;
+  background-repeat: no-repeat;
+  background-color: #E0E0D5;
+}
+.contact{
+  font-size: 100px;
+  color: #543D06;
+}
+.message_contact{
+  font-size: 26px;
+  color: #543D06;
+}
+.achetez{
+  color: #543D06;
+  position : fixed;
+  bottom : 0px;
+  justify-content: center;
+  border: solid 1px;
+  padding: 20px;
+  border-radius: 50px;
+}
+/*************** END MAIN ***************/
+
+/*************** ASIDE LEFT ***************/
+
+/*************** END ASIDE LEFT***************/
+
+/*************** SECTION 1 ***************/
+
+/*************** END SECTION 1 ***************/
+
+/*************** SECTION 2 ***************/
+
+/*************** END SECTION 2 ***************/
+
+/*************** SECTION 3 ***************/
+
+/*************** END SECTION 3 ***************/
+
+/*************** ASIDE RIGHT ***************/
+
+/*************** END ASIDE RIGHT ***************/
+
+/*************** FOOTER ***************/
+
+/*************** END FOOTER ***************/
+
+/*************** MEDIAQUERY ***************/
+
+@media (max-width: 1439.98px) {
+  .container {
+    width: 80%;
+    background-color: pink;
+  }
+}
+
+@media (max-width: 960px) {
+}
+
+@media (max-width: 760px) {
+}
+
+@media (max-width: 560px) {
+  .container {
+    width: 100%;
+    background-color: rgba(43, 17, 172, 0.879);
+  }
+}
+
+/*************** END MEDIAQUERY ***************/

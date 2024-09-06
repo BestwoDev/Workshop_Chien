@@ -1,6 +1,5 @@
 <?php 
-
-require_once "../includes/db_connect.php";
+require_once "includes/db_connect.php";
 if(!empty($_POST) && $_SERVER['REQUEST_METHOD'] === "POST" && isset($_POST['submit_form'])){
 
     if(isset($_POST['nom']) && isset($_POST['prix']) && isset($_POST['categorie'])&& $_FILES['image']['size'] > 0){

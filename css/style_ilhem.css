@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(../img/header1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.head {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.logo {
+  width: 200px;
+  height: 200px;
+  padding-top: 20px;
+}
+ul {
+  display: flex;
+  margin: 50px;
+}
+li {
+  list-style-type: none;
+  margin: 30px 0 20px 40px;
+}
+a {
+  text-decoration: none;
+  color: rgb(109, 62, 5);
+  font-size: 20px;
+}
+.titre {
+  height: 636px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 80px;
+  color: rgb(81, 59, 32);
+}
+
+.acceuil {
+  height: 100vh;
+  background-color: rgb(81, 59, 32);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.acceuil img {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin: 50px;
+  border: solid 5px goldenrod;
+}
+.acceuil a {
+  color: bisque;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nourriture {
+  margin-top: 220px;
+}
+.entretien {
+  margin-top: 220px;
+}
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  color: rgb(81, 59, 32);
+  margin: 50px;
+}
+.a_propos {
+  height: 100vh;
+  background-color: rgb(234, 229, 223);
+}
+.a_propos img {
+  width: 600px;
+  height: 400px;
+  border-radius: 10%;
+  
+}
+.partie2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(234, 229, 223);
+}
+.partie2 img {
+  width: 800px;
+  height: 400px;
+  border-radius: 5%;
+  margin-bottom: 50px;
+}
+.paragraphe {
+  width: 600px;
+  font-size: 30px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1398px) {
+  nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  nav ul {
+    width: 100%;
+    justify-content: space-between;
+  }
+  nav ul li {
+    margin: 0;
+  }
+  h1 {
+    font-size: 120px;
+  }
+  .acceuil img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .jouets {
+    margin: 20px 0;
+  }
+
+  .nourriture,
+  .entretien {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nourriture img,
+  .jouets img,
+  .entretien img {
+    height: 300px;
+    margin: 20px;
+  }
+  .a_propos img {
+    width: 450px;
+    height: 300px;
+    border-radius: 10%;
+  }
+  .partie2 img {
+    width: 450px;
+    height: 300px;
+    border-radius: 5%;
+  }
+  .paragraphe {
+  width: 400px;
+  font-size: 25px;
+  display: flex;
+  margin-bottom: 50px;
+}
+}
+
+@media (max-width: 998px) {
+  header {
+    background-image: url(../img/mise-au-point-peu-profonde-tir-vertical-mignon-chiot-golden-retriever-assis-sol-herbe.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  nav ul {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul li {
+    margin: 0px;
+  }
+  h1 {
+    font-size: 80px;
+    margin-bottom: 150px;
+    color: brown;
+  }
+  .acceuil img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .jouets {
+    margin: 20px 0;
+  }
+
+  .nourriture,
+  .entretien {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nourriture img,
+  .jouets img,
+  .entretien img {
+    height: 200px;
+    margin: 15px;
+  }
+}
