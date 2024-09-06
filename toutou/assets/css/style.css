@@ -1,0 +1,88 @@
+/*************** GLOBAL ***************/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/*************** END GLOBAL ***************/
+
+/*************** MAIN ***************/
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgb(84, 61, 6);
+}
+
+
+h2 {
+  color: rgb(224, 224, 213);
+  font-size: 80px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+
+a {
+  text-decoration: none;
+  color: rgb(224, 224, 213);
+  border: 1px black solid;
+  width: 250px;
+  height: 30px;
+}
+
+
+iframe,
+img {
+  width: 250px;
+  height: 300px;
+  display: block;
+}
+
+
+.bloc-nourriture {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+
+
+
+
+
+
+/*************** MEDIAQUERY ***************/
+
+@media (max-width: 1400px) {
+  header {
+    background-color: #e68f15;
+  }
+  header h2 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 960px) {
+  header {
+    background-color: #a6f28b;
+  }
+  .logo1 {
+    display: none;
+  }
+  .logo2 {
+    display: inline;
+  }
+  header h2 {
+    font-family: "Roboto-Black";
+  }
+}
+
+/*************** END MEDIAQUERY ***************/
